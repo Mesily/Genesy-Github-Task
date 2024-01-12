@@ -8,3 +8,8 @@ Version control promotes collaboration by allowing different individuals work on
 **DIFFERENCE BETWEEN GIT AND GITHUB**<br>
 **Git** is a distributed Version Control System that is used for tracking changes in a source code during software development. it is used locally on a developers device. With git, developers work independently on their local device and push their code to a central platform.<br>
 **GitHub** on the other hand is a web-based hosting platform/service for git folders /repositories. It is the central platform to which developers push their source codes for the sake of collaboration, review, sharing and management. 
+
+**THREE GITHUB ALTERNATIVES**<br>1. GitLab<br>
+2. Gitea<br>
+3. Bitbucket<br>
+
