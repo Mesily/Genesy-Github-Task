@@ -13,3 +13,8 @@ Version control promotes collaboration by allowing different individuals work on
 2. Gitea<br>
 3. Bitbucket<br>
 
+**DIFFERENCE BETWEEN GIT FETCH AND GIT PULL**<br>
+**Git fetch** is a command used to retrieve/download the changes made in the remote repository to the current working repository or branch. Git fetch does not merge the changes retrieved with the content of the working branch/repository, it simply allows you view the changes. To merge the remote changes, one would have to run the "git merge" command.
+**Git pull** on the other hand is a command that fetches and merges the changes from the remote repository with the current working branch at the same time. 
+
+
