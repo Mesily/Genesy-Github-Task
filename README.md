@@ -17,9 +17,9 @@ Version control promotes collaboration by allowing different individuals work on
 **Git fetch** is a command used to retrieve/download the changes made in the remote repository to the current working repository or branch. Git fetch does not merge the changes retrieved with the content of the working branch/repository, it simply allows you view the changes. To merge the remote changes, one would have to run the "git merge" command.<br>
 **Git pull** on the other hand is a command that fetches and merges the changes from the remote repository with the current working branch at the same time. 
 
-**GIT REBASE AND ITS COMMAND**
+**GIT REBASE AND ITS COMMAND**<br>
 Git rebase is used to integrate changes from one branch into another by combining commits from one branch unto another branch in chronological order. It is used to append changes from a feature or private branch to the main branch. Git rebase is basically used to maintain a cleaner and more linear project history by applying the local changes on top of the latest changes from the target branch in the order of commits occurence.<br>
 Assuming one is on a feature branch, the command to rebase onto the main branch is ***git rebase main***
 
-**GIT CHERRY-PICK**
+**GIT CHERRY-PICK**<br>
 Git cherry-pick is a command that allows one to apply specific changes or commits from one branch to another branch. For instance, where several changes are committed in say, a features branch; and one wants to select just some specific changes and merge them with the contents of the main branch, the command to use is git cherry-pick followed by the commit hash of the commit you want to apply. The command is ***git cherry-pick < command hash >***
